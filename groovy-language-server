@@ -1,0 +1,6 @@
+#!/bin/sh
+
+GROOVYLS_REPOSITORY=$1
+
+java -jar $GROOVYLS_REPOSITORY/build/libs/groovy-language-server-all.jar $*
+
